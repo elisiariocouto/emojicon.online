@@ -74,7 +74,7 @@ function generateHtmlResponse(emoji: string, color: string, faviconSVG: string):
 		<head>
 			<meta charset="utf-8">
 			<meta name="viewport" content="width=device-width, initial-scale=1">
-			<link rel="icon" href="https://emojicon.elisiariocouto.workers.dev/svg?emoji=${encodeURIComponent('🤓🌍')}&color=skyblue" type="image/svg+xml">
+			<link rel="icon" href="https://emojicon.online/svg?emoji=${encodeURIComponent('🤓🌍')}&color=skyblue" type="image/svg+xml">
 			<title>Emojicon Online</title>
 			<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 		</head>
@@ -115,7 +115,7 @@ function generateHtmlResponse(emoji: string, color: string, faviconSVG: string):
 						<div class="card">
 							<div class="card-body">
 								<h2 class="card-title">Include this code in your website:</h2>
-								<pre><code>&lt;link rel="icon" href="https://emojicon.elisiariocouto.workers.dev/svg?emoji=${encodeURIComponent(emoji)}&color=${encodeURIComponent(color)}" type="image/svg+xml"&gt;</code></pre>
+								<pre><code>&lt;link rel="icon" href="https://emojicon.online/svg?emoji=${encodeURIComponent(emoji)}&color=${encodeURIComponent(color)}" type="image/svg+xml"&gt;</code></pre>
 							</div>
 						</div>
 					</div>
